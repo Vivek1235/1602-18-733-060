@@ -1,0 +1,27 @@
+.tabx{
+    width:100%;
+}
+.heading{
+    border:double black 2px;
+    font-size: x-large;
+    position:relative;
+    width: 100%;
+}
+.vertical
+{
+    writing-mode: vertical-lr;
+  -ms-writing-mode: tb-rl;
+   transform: rotate(180deg);}
+
+.para{transform: rotate(-90deg);}
+.rotate{
+     text-align: center;
+     transform: rotate(90deg);
+}
+.leftside
+{
+    float: left;
+}
+.submission{
+    background-color: tomato;
+}

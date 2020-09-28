@@ -1,0 +1,255 @@
+<html>
+	<head>
+		<title>ITR-V</title>
+		<meta name="viewport" width="device-width" initial-scale="1.0">
+		<link href="assnstyle.css" rel="stylesheet">
+	</head>
+	<body>
+	<form method="POST">
+		
+			<div class="heading">
+				
+				<h2 class="leftside">ITR-V</h2>
+				<h1><pre>        INDIAN INCOME TAX RETURN VERIFICATION FORM</pre></h1>
+				<h class="leftside"><p class="para">FORM</p></h>
+				<b><pre>                      [Where the data of the Return of Income/Fringe Benefits in Form ITR-1, ITR-2, ITR-3,</pre>
+			<pre>                     ITR-4,ITR-5,ITR-6 & ITR-8 transmitted electronically without digital signature]</pre>
+			<pre>	                           (Please see Rule 12 of the Income-tax Rules, 1962)</b></pre>
+			
+			</div>
+
+            <table border="1" class="tabx">
+			
+			 <div class="leftside">
+                   <tr> 
+                    <th  class="vertical" class="leftall" rowspan="9" ><p class="rotate">PERSONAL INFORMATION AND THE DATE OF ELECTRONIC TRANSMISSION</p></th>
+				  
+					<th colspan="3">Name</th>
+                    <th colspan="2">PAN</th>
+        
+				  </tr>
+				<tr>
+                    <td colspan="3"><textarea name="name" rows="2" cols="140" required></textarea></td>
+                    <td colspan="2"><input type="text" name="pan" size="70" required></td>
+                    
+				</tr>
+				<tr>
+					<th>Flat/Door/Block No</th>
+                    <th colspan="2">Name of Premises/Building/Village</th>
+                    <th rowspan="3">Form No.which<br>has been<br>electronically<br>transmitted(fill<br> the code)</th>
+					<td rowspan="3"><input type="text" name="form-no" size="60" required></td>
+                </tr>
+                <tr>
+					<td><textarea name="flat"cols="70" rows="2" required></textarea></td>
+                    <td colspan="2"><textarea name="building" cols="70" rows="2" required></textarea></td>
+                    
+				</tr>
+				<tr>
+					<th>Road/Street/Post Office</th>
+					<th colspan="2">Area/Locality</th>
+				</tr>
+				<tr>
+					<td><textarea name="street" cols="70" rows="2" required></textarea></td>
+                    <td colspan="2"><textarea name="area" cols="70" rows="2" required></textarea></td>
+                    <th>Status (fill the <br>code)</th>
+					<td>Individual</td>
+				</tr>
+				<tr>
+					<th>Town/City/District</th>
+					<th>State</th>
+                    <th>Pin</th>
+                    <th colspan="2">Designation of Assessing Officer</th>
+                    
+				</tr>
+				<tr>
+					<td><textarea name="town" cols="70" rows="2" required></textarea></td>
+					<td><textarea name="state" rows="2" cols="60" required></textarea></td>
+                    <td><textarea name="pin" rows="2" cols="20" required></textarea></td>
+                    <td colspan="2"><textarea name="designation" rows="2" cols="45" required></textarea></td>
+                    
+                </tr>
+				
+				<tr>
+					<th>E-filling Acknowledgement Number</th>
+					<td><input type="text" name="acknowledge" required></td>
+					<th>Date(DD/MM/YYYY)</th>
+				</tr>
+			</div>
+	
+		
+			
+			 </div>
+	
+	
+				
+				<tr>
+					<th class="vertical" class ="leftside" rowspan="15"><p class="rotate">COMPUTATION OF INCOME AND TAX THERON</p></th>
+					<th>1</th>
+					<th colspan="3">Gross total income</th>
+					<th>1</th>
+					<td><input type="text" name="gross" required></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<th colspan="3">Deductions under Chapter-VI-a</th>
+					<th>2</th>
+					<td><input type="text" name="deducts" required></td>
+				</tr>
+				<tr>
+					<th>3</th>
+					<th colspan="3">Total Income</th>
+					<th>3</th>
+					<td><input type="text" name="income" required></td>
+				</tr>
+				<tr>
+					<th>a</th>
+					<th colspan="3">Current Year loss, if any</th>
+					<th>3a</th>
+					<td><input type="text" name="loss" required></td>
+				</tr>
+				<tr>
+					<th>4</th>
+					<th colspan="3">Net Tax payable</th>
+					<th>4</th>
+					<td><input type="text" name="net-tax" required></td>
+				</tr>
+				<tr>
+					<th>5</th>
+					<th colspan="3">Intrest payable</th>
+					<th>5</th>
+					<td><input type="text" name="intrest" required></td>
+				</tr>
+				<tr>
+					<th>6</th>
+					<th colspan="3">Total tax and intrest payable</th>
+					
+					<th>6</th>
+					<td><input type="text" name="total-tax" required></td>
+				</tr>
+				<tr>
+					<th>7</th>
+					<th colspan="3">Taxes Paid</th>
+				</tr>
+				<tr>
+					
+					<th>a</th>
+					<th>Advance Tax</th>
+					
+					<th>7a</th>
+					<td><input type="text"name="advance-tax" required></td>
+				</tr>
+				<tr>
+					<th>b</th>
+					<th >TDS</th>
+					<th>7b</th>
+					<td><input type="text"name="TDS" required></td>
+				</tr>
+				<tr>
+					<th>c</th>
+					<th >TCS</th>
+					
+					<th>7c</th>
+					<td><input type="text"name="TCS" required></td>
+				</tr>
+				<tr>
+					<th>d</th>
+					<th >Self Assessment Tax</th>
+					
+					<th>7d</th>
+					<td><input type="text"name="self-assesment" required></td>
+				</tr>
+				<tr>
+					<th>e</th>
+					<th colspan="3">Total Taxes Paid(7a=7b+7c+7d)</th>
+					<th>7e</th>
+					<td><input type="text"name="totalpaid" required></td>
+				</tr>
+				<tr>
+					<th>8</th>
+					<th colspan="3">Tax Payable(6-7d)</th>
+					
+					<th>8</th>
+					<td><input type="text" name="taxpayable" required></td>
+				</tr>
+				<tr>
+					<th>9</th>
+					<th colspan="3">Refund(7e-6)</th>
+					
+					<th>9</th>
+					<td><input type="text" name="refund" required></td>
+				</tr>
+	
+
+					<tr>
+						<th class="vertical" class="leftside" rowspan="15"><p class="rotate">COMPUTATION OF FRINGE BENEFITS AND TAX THERON</p></th>
+						<th>10</th>
+						<th colspan="3">Value of Fringe Benefits</th>
+					
+						<th>10</th>
+						<td><input type="text" name="fringevalue" required></td>
+					</tr>
+					<tr>
+						<th>11</th>
+						<th colspan="3">Total fringe benefit tax liability</th>
+						<th>11</th>
+						<td><input type="text" name="total-fringe" required></td>
+					</tr>
+					<tr>
+					<th>12</th>
+					<th colspan="3">Total intrest payable</th>
+					
+					<th>12</th>
+					<td><input type="text" name="total-intrest" required></td>
+					</tr>
+					<tr>
+					<th>13</th>
+					<th colspan="3">Total tax and intrest payable</th>
+					
+					<th>13</th>
+					<td><input type="text" name="total-tax-and-intrest" required></td>
+					</tr>
+					<tr>
+					<th>14</th>
+					<th colspan="4">Taxes Paid</th>
+					
+					<td><input type="text" name="taxespaid" required></td>
+					</tr>
+					<tr>
+						<th>a</th>
+						<th >Advance Tax</th>
+						<th>14a</th>
+						<td><input type="text" name="advancetax" required></td>
+					</tr>
+					<tr>
+						<th>b</th>
+						<th>Self Assessment Tax</th>
+						<th>14b</th>
+						<td><input type="text" name="self-assessment" required></td>
+					</tr>
+					<tr>
+						<th>c</th>
+						<th colspan="3">Total Taxes Paid(14a+14b)</th>
+					
+						<th>14c</th>
+						<td><input type="text" name="totaltaxespaid" required></td>
+					</tr>
+					<tr>
+						<th>15</th>
+						<th colspan="3">Tax Payable(13-14c)</th>
+					
+						<th>15</th>
+						<td><input type="text" name="completetaxpayable" required></td>
+					</tr>
+					<tr>
+						<th>16</th>
+						<th colspan="3">Refund</th>
+					
+						<th>16</th>
+						<td><input type="text" name="refund" required></td>
+					</tr>
+			</table>
+			<input class="submission" type="submit" name="submit" value="Submit" />
+	</form>
+
+		</body>
+</html>
